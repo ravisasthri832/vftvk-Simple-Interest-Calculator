@@ -6,15 +6,16 @@
 
  body {
      height: 100%;
-     width: 100%
+     width: 100%;
+	 background-color: #000000;
+	 color: #ffffff;
+     font-family: Arial;
  }
-
- .main-section div {
-     text-align: left;
-     width: 290px;
-     margin: 0px auto;
-     padding: 8px;
- }
+ h1
+{
+    color: grey;
+    font-family: Verdana;padding-bottom:30px;
+}
 
  article {
      display: flex;
@@ -27,15 +28,29 @@
  }
 
  .main-section {
-     background-color: black;
      width: 500px;
      text-align: center;
      padding: 30px;
+     background-color: #ffffff;
+     color: #000000;
+     border-radius: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
  }
-
+.main-section div {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
  .main-section div label {
-     width: 70px;
+     width: 150px;
      display: inline-block;
+     text-align: left;
  }
 
  .main-section div input {
@@ -46,12 +61,37 @@
      width: 58%;
  }
 
- button {
-     background: #0075ff;
-     border: 0px;
-     padding: 8px;
-     margin: 10px;
-     width: 60%;
-     color: #fff;
-     border-radius: 5px;
- }
+button {
+    background: #0075ff;
+    border: 0px;
+    padding: 8px;
+    margin: 20px 0px 0px;
+    width: 70%;
+    color: #fff;
+    border-radius: 5px;
+}
+ #compute
+{
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 325px;
+}
+#principal{
+    height: 25px;
+    width: 190px;
+	height:35px;
+}
+
+#years{
+    height: 35px;
+    width: 200px;
+}
+#result {
+    padding: 20px;
+}
+.bgyello
+{
+    background-color: #ffff00;
+}
