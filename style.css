@@ -1,4 +1,57 @@
-body {background-color:tan;}
-h1{color:green;}
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
 
+ body {
+     height: 100%;
+     width: 100%
+ }
 
+ .main-section div {
+     text-align: left;
+     width: 290px;
+     margin: 0px auto;
+     padding: 8px;
+ }
+
+ article {
+     display: flex;
+     height: 98vh;
+     font-family: arial;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .main-section {
+     background-color: black;
+     width: 500px;
+     text-align: center;
+     padding: 30px;
+ }
+
+ .main-section div label {
+     width: 70px;
+     display: inline-block;
+ }
+
+ .main-section div input {
+     width: 72%;
+ }
+
+ .main-section div input[type="range"] {
+     width: 58%;
+ }
+
+ button {
+     background: #0075ff;
+     border: 0px;
+     padding: 8px;
+     margin: 10px;
+     width: 60%;
+     color: #fff;
+     border-radius: 5px;
+ }
